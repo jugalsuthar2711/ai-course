@@ -1,8 +1,8 @@
 import pandas as pd
 
-df = pd.read_csv("winemag-data.csv")
+df = pd.read_csv("netflix_titles.csv")
 
-print(df.head)
+print(df.head())
 print(df.tail)
 print(df.info)
-print(df.de)
+print(df.describe())
